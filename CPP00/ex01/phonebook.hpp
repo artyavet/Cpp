@@ -10,7 +10,7 @@
 class   Phonebook {
     private:
             int contact_lists;
-            Contact obj[2];
+            Contact obj[8];
 
     public:
             Phonebook();

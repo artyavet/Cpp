@@ -21,7 +21,7 @@ void Phonebook::set_members(int i)
     obj[i].set_nick_name();
     obj[i].set_phone_num();
     obj[i].set_secret_name();
-    if (contact_lists < 2)
+    if (contact_lists < 8)
        contact_lists++;
 }
 
